@@ -1,9 +1,15 @@
 {
-  "name": "atm_machine",
+  "name": "@birjis132/atm_machine",
   "version": "1.0.0",
   "description": "creating a ATM",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "atm_machine":"index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
